@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linguify - Breaking Language Barriers</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Linguify</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#translator">Translator</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <ion-icon name="menu-outline"></ion-icon>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Break Language Barriers with Linguify</h1>
+        <p style="margin: 0; padding: 0;">Instant, accurate translations for over 100 languages.</p>
+        <p style="margin: 0; padding: 0; margin-bottom: 40px;">Your easy-to-use language translation platform.</p>
+        <a href="#translator" class="cta-button">Start Translating Now</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Linguify</h2>
+      <p class="about-description">Linguify is a cutting-edge language translation service, dedicated to connecting people across the globe through accurate and efficient translations. Our mission is to make communication seamless, regardless of language barriers.</p>
+      <div class="about-grid">
+        <div class="about-item">
+          <div class="about-icon">
+            <ion-icon name="globe-outline"></ion-icon>
+          </div>
+          <div class="about-content">
+            <h3>Global Reach</h3>
+            <p>Supporting over 100 languages, we connect people from all corners of the world.</p>
+          </div>
+        </div>
+        <div class="about-item">
+          <div class="about-icon">
+            <ion-icon name="flash-outline"></ion-icon>
+          </div>
+          <div class="about-content">
+            <h3>Lightning Fast</h3>
+            <p>Our advanced algorithms ensure quick and accurate translations in real-time.</p>
+          </div>
+        </div>
+        <div class="about-item">
+          <div class="about-icon">
+            <ion-icon name="shield-checkmark-outline"></ion-icon>
+          </div>
+          <div class="about-content">
+            <h3>Secure & Confidential</h3>
+            <p>Your data privacy is our top priority. All translations are encrypted and secure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Key Features</h2>
+      <ul class="feature-list">
+        <li>
+          <ion-icon name="language-outline"></ion-icon>
+          <span>Support for over 100 languages</span>
+        </li>
+        <li>
+          <ion-icon name="mic-outline"></ion-icon>
+          <span>Voice-to-text translation</span>
+        </li>
+        <li>
+          <ion-icon name="document-text-outline"></ion-icon>
+          <span>Document translation</span>
+        </li>
+        <li>
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+          <span>Mobile app for on-the-go translations</span>
+        </li>
+        <li>
+          <ion-icon name="cloud-offline-outline"></ion-icon>
+          <span>Offline mode for travel</span>
+        </li>
+        <li>
+          <ion-icon name="people-outline"></ion-icon>
+          <span>Human translation services for complex projects</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="translator" class="translator">
+      <h2>Try Our Translator</h2>
+      <div class="container">
+        <div class="wrapper">
+          <div class="text-input">
+            <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+            <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+          </div>
+          <ul class="controls">
+            <li class="row from">
+              <select></select>
+              <div class="icons">
+                <ion-icon id="from" name="volume-medium-outline" data-lang-type="from"></ion-icon>
+                <ion-icon id="from" name="copy-outline"></ion-icon>
+              </div>
+            </li>
+            <li class="exchange">
+              <ion-icon name="swap-vertical"></ion-icon>
+            </li>
+            <li class="row to">
+              <select></select>
+              <div class="icons">
+                <ion-icon id="to" name="volume-medium-outline" data-lang-type="to"></ion-icon>
+                <ion-icon id="to" name="copy-outline"></ion-icon>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button>Translate Now</button>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <div class="testimonial-icon">
+            <ion-icon name="briefcase-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <blockquote>"Linguify has revolutionized our international communication. Their fast and accurate translations have helped us expand our business globally."</blockquote>
+          <cite>- Amrit Jindal, CEO of Global Tech</cite>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-icon">
+            <ion-icon name="airplane-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <blockquote>"As a travel blogger, Linguify's mobile app has been a lifesaver. I can communicate effortlessly in any country I visit."</blockquote>
+          <cite>- Tullika Singh, Travel Enthusiast</cite>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-icon">
+            <ion-icon name="headset-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <blockquote>"The accuracy and speed of Linguify's translations are unmatched. It has significantly improved our customer support for international clients."</blockquote>
+          <cite>- Mark Johnson, Customer Support Manager</cite>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+      <h2>Customer Reviews</h2>
+      <div class="review-container" id="review-container">
+        <!-- Reviews will be dynamically added here -->
+      </div>
+      <div class="review-form">
+        <h3>Leave a Review</h3>
+        <form id="review-form">
+          <div class="form-group">
+            <label for="review-name">Your Name</label>
+            <input type="text" id="review-name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="review-email">Your Email</label>
+            <input type="email" id="review-email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="review-text">Your Review</label>
+            <textarea id="review-text" name="review" required></textarea>
+          </div>
+          <div class="star-rating">
+            <ion-icon name="star-outline" data-value="1"></ion-icon>
+            <ion-icon name="star-outline" data-value="2"></ion-icon>
+            <ion-icon name="star-outline" data-value="3"></ion-icon>
+            <ion-icon name="star-outline" data-value="4"></ion-icon>
+            <ion-icon name="star-outline" data-value="5"></ion-icon>
+          </div>
+          <button type="submit">Submit Review</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p><ion-icon name="mail-outline"></ion-icon> Email: info@linguify.com</p>
+          <p><ion-icon name="call-outline"></ion-icon> Phone: +91 8976482512</p>
+          <p><ion-icon name="location-outline"></ion-icon> Address: Lovely Professional University, Phagwara, Punjab,India</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+          </div>
+        </div>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Your Email</label>
+            <input type="email" id="contact-email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <select id="contact-subject" name="subject" required>
+              <option value="">Select a Subject</option>
+              <option value="general">General Inquiry</option>
+              <option value="support">Technical Support</option>
+              <option value="business">Business Opportunities</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Your Message</label>
+            <textarea id="contact-message" name="message" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Writing Tools</h3>
+        <ul>
+          <li><a href="#">Paraphrasing Tool</a></li>
+          <li><a href="#">Rewording Tool</a></li>
+          <li><a href="#">Paragraph Rewriter</a></li>
+          <li><a href="#">Sentence Rewriter</a></li>
+          <li><a href="#">Summarizer</a></li>
+          <li><a href="#">Linguify Flow</a></li>
+          <li><a href="#">Word Counter</a></li>
+          <li><a href="#">Translator</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Language Correction</h3>
+        <ul>
+          <li><a href="#">Grammar Checker</a></li>
+          <li><a href="#">AI Proofreader</a></li>
+          <li><a href="#">Spell Checker</a></li>
+          <li><a href="#">Punctuation Checker</a></li>
+          <li><a href="#">Essay Checker</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Citing and Originality</h3>
+        <ul>
+          <li><a href="#">Citation Generator</a></li>
+          <li><a href="#">APA Citation Generator</a></li>
+          <li><a href="#">MLA Citation Generator</a></li>
+          <li><a href="#">Chicago Citation Generator</a></li>
+          <li><a href="#">Plagiarism Checker</a></li>
+          <li><a href="#">AI Detector</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Extensions</h3>
+        <ul>
+          <li><a href="#">Linguify for Chrome</a></li>
+          <li><a href="#">Linguify for Word</a></li>
+          <li><a href="#">Linguify for Edge</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Apps</h3>
+        <ul>
+          <li><a href="#">Linguify for iOS</a></li>
+          <li><a href="#">Linguify for Android</a></li>
+          <li><a href="#">Linguify for macOS</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Join Us on Discord</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Student Resources</h3>
+        <ul>
+          <li><a href="#">Products & Tutorials</a></li>
+          <li><a href="#">AI Writing Tools</a></li>
+          <li><a href="#">Educational Courses</a></li>
+          <li><a href="#">Knowledge Base</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Get to Know Us</h3>
+        <ul>
+          <li><a href="#">Linguify University</a></li>
+          <li><a href="#">Paraphrasing Guide</a></li>
+          <li><a href="#">AI Writing Assistant</a></li>
+          <li><a href="#">Linguify Blog</a></li>
+          <li><a href="#">Meaning.io</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Linguify, a Global Language Solutions company</p>
+      <ul class="legal-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Copyright, Community Guidelines, DSA and other Legal Resources</a></li>
+      </ul>
+      <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply</p>
+      <p>Made with ❤️ at Global Language Solutions</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
